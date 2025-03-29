@@ -21,7 +21,6 @@ const MyProfile = () => {
           })
 
           const filterdPosts = post.filter((p)=> p._id!==pt._id)
-          console.log("🚀 ~ handleDelete ~ filterdPosts:", filterdPosts)
           setPost(filterdPosts)
 
         } catch (error) {
